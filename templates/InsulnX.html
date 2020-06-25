@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DataForce App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="static/styles/layout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"> -->
+  </head>
+<body>
+   	<div class="navbar navbar-dark bg-dark">
+      <h1>InsulinX</h1>
+    </div>
+  	<main role="main">
+    <div class="container">
+        <form class="form" action="/get_id" method="POST" name=item>
+          <p>Select your food/meal:</p>
+            <input name="meal" class="formSearch" type="text" placeholder="Type your meal" >
+          <p>Enter the size of the portion</p>
+            <input name="sizeofportion" class="formInput" type="text" placeholder="In g/ml" >
+          <button class="btn" type="submit">Search</button>
+        </form>
+    </div>
+        
+        <!--  
+        <select class="js-example-basic-multiple">
+  				<option>Coffee</option>
+  				<option>Banana</option>
+  				<option>Apple</option>
+  				<option>Cheese Pizza</option>
+  				<option>Cookies</option>
+  				<option>Ice Cream</option>
+  				<option>A tua tia</option>
+			  </select>
+        -->
+      <p>Select your recommended insulin/carb ratio:</p>
+      <div class="form-check">
+  				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  				<label class="form-check-label" for="exampleRadios1">1:8</label>
+			</div>
+			<div class="form-check">
+  				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  				<label class="form-check-label" for="exampleRadios2">1:10</label>
+			</div>
+			<div class="form-check">
+  				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+  				<label class="form-check-label" for="exampleRadios3">1:15</label>
+			</div>
+      <br>
+          	<button class="btn1" type="cancel">Cancel</button>
+            <button class="btn" type="submit">Calculate</button>
+        </form>
+      </div>
+      <br>
+    
+      {% block content %}
+
+      {% endblock %} 
+​
+    </main>
+    </div>
+  </div>
+</div>
+​
+</body>
+</html>
