@@ -22,11 +22,12 @@
 - APIs
 
 
-Project developed for the Doctolib + Dataiku Hackathon (24 - 26 June 2020)
+
+**Project developed for the Doctolib + Dataiku Hackathon (24 - 26 June 2020)**
 At: Wild Code School, Lisbon
 
 
-Here´s a sneak peak into our app ;)
+
 
 ![Image](static/Insulnx-Prev-Before.png)
 
