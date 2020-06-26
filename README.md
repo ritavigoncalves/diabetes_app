@@ -1,4 +1,4 @@
-# diabetes_app
+# Insulnx: App for pacients with diabetes
 
 **Problem**
 The problem that many patients with Diabetes faces today is to find the right balance of carb intake and insulin to compensate for the amount of carb that is being consumed so we aim to do the calculations for the patient taking the user input and crossing with the nutrition values in the dataset
