@@ -1,8 +1,51 @@
 {% extends "InsulnX.html" %}
 
 {% block content %}
+<!--
+<head>
+    <title>InsulinX-DataForce APP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href=" layout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+-->
+<div class="container1">
+  <div class="section">
+    <form action="/" method="POST">
+      <h3>Enjoy your meal!</h3>
+      <p>Don't forget to take your insulin 15 minutes prior to start eating or following your doctor's recomendation. </p>
+      <div class="foodx">
+        <h4>{{food[0]}}</h4>
+      </div>
+    </form>
+  </div>
+  <div class="results">
+    <form action="/" method="POST">
+      <div class="result">
+        <div class="carb">
+          <p>Carbohydrates: {{ food[1] }}</p>
+        </div>
+        <div class="fat">
+          <p>Fat: {{ food[2] }}</p>
+        </div>
+        <div class="protein">
+          <p>Protein: {{ food[3] }}</p>
+        </div>
+     <br>
+     <br>
+     <p>Recommended insulin intake:</p>
+        <div class="insulin">
+          <h5>{{ food[4] }} unit(s)</h5>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
 
-<!-- Food item -->>
-{{ food }}
 
+      </div>
+    </form>
+  </div>
+  
 {% endblock %}
