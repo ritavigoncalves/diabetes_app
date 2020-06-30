@@ -1,4 +1,4 @@
-![Image](https://github.com/ritavigoncalves/diabetes_app/blob/master/static/images/InsulinX-Logo-Dark-H.png =50)
+![Image](https://github.com/ritavigoncalves/diabetes_app/blob/master/static/images/InsulinX-Logo-Dark-H.png width="300")
 
 # InsulinX: App for pacients with diabetes
 
