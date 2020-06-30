@@ -1,3 +1,5 @@
+![Image](https://github.com/ritavigoncalves/diabetes_app/blob/master/static/images/InsulinX-Logo-Dark-H.png | width=100)
+
 # InsulinX: App for pacients with diabetes
 
 **Problem**
