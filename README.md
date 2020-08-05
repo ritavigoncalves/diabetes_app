@@ -1,10 +1,10 @@
-# InsulinX: App for pacients with diabetes
+# InsulinX: App for patients with diabetes
 
 **Problem**
 - The problem that many patients with Diabetes faces today is to find the right balance of carb intake and insulin to compensate for the amount of carb that is being consumed so we aim to do the calculations for the patient taking the user input and crossing with the nutrition values in the dataset
 
 **Target**
-- Predict the total carbohydrates of a meal according to its nutricional value to help pacients with diabetes adjust the right amout of insulin needed.
+- Predict the total carbohydrates of a meal according to its nutricional value to help patients with diabetes adjust the right amout of insulin needed.
 
 **Audience**
 - Medical Staff (Nurses, Doctors, ...)
